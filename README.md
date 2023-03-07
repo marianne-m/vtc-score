@@ -9,9 +9,15 @@ This requires the pyannote version on branch develop of the repo git@github.com:
 ```bash
 git clone git@github.com:marianne-m/vtc-score.git
 cd vtc-score/
+
 # create a venv (tested on python3.8)
 python3.8 -m venv venv/
 . venv/bin/activate
+
+# or create a conda env
+conda create -n vtc_score python=3.8
+conda activate vtc_score
+
 pip install -r requirements.txt
 ```
 
