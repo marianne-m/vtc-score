@@ -26,5 +26,5 @@ pip install -r requirements.txt
 To score VTC inferences, just run :
 
 ```bash
-python main.py --apply_path path/to/vtc/inferences --report_path path/to/fscore/report
+python main.py --apply_path path/to/vtc/inferences --report_path path/to/fscore/report.csv
 ```
