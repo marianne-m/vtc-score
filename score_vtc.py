@@ -80,7 +80,7 @@ def score_vtc(
         rttm_annots = load_rttm(filepath)
         annotations.update(rttm_annots)
 
-    metric = MacroAverageFMeasure()
+    metric = MacroAverageFMeasure(CLASSES[classes]["classes"])
 
     for file in protocol.test():
         if file["uri"] not in annotations:
