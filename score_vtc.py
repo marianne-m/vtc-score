@@ -37,7 +37,7 @@ CLASSES = {"babytrain": {'classes': ["MAL", "FEM", "CHI", "KCHI"],
 def parse_args(argv):
     parser = argparse.ArgumentParser(description='Evaluate VTC with fscore')
     parser.add_argument("-p", "--protocol", type=str,
-                        default="X.SpeakerDiarization.BBT2",
+                        default="tmp_data_protocol.SpeakerDiarization.All",
                         help="Pyannote database")
     parser.add_argument("--apply_folder", type=Path,
                         required=True,
