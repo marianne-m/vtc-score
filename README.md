@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Set the `PYANNOTE_DATABASE_CONFIG` environment variable before launching the score commant :
+Set the `PYANNOTE_DATABASE_CONFIG` environment variable before launching the score command :
 
 ```bash
 PYANNOTE_DATABASE_CONFIG=/scratch2/mkhentout/test-alice/ALICE/voice-type-classifier/pyannote_tmp_config/tmp_data/database.yml
