@@ -23,7 +23,13 @@ pip install -r requirements.txt
 
 ## Usage
 
-To score VTC inferences, just run :
+Set the `PYANNOTE_DATABASE_CONFIG` environment variable before launching the score commant :
+
+```bash
+PYANNOTE_DATABASE_CONFIG=/scratch2/mkhentout/test-alice/ALICE/voice-type-classifier/pyannote_tmp_config/tmp_data/database.yml
+```
+
+To score VTC inferences, run :
 
 ```bash
 python main.py --apply_path path/to/vtc/inferences --report_path path/to/fscore/report.csv
