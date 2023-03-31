@@ -32,5 +32,5 @@ PYANNOTE_DATABASE_CONFIG=/scratch2/mkhentout/test-alice/ALICE/voice-type-classif
 To score VTC inferences, run :
 
 ```bash
-python main.py --apply_path path/to/vtc/inferences --report_path path/to/fscore/report.csv
+python score_vtc.py --apply_folder path/to/vtc/inferences --report_path path/to/fscore/report.csv
 ```
